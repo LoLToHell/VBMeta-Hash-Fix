@@ -12,3 +12,6 @@ Simple script to set valid Boot Hash for ro.boot.vbmeta.digest and pass certific
 
 ## Thanks❤️
 Big thanks [reveny](https://github.com/reveny/)
+
+## License 
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/LoLToHell/VBMeta-Hash-Fix/blob/Master-branch/LICENSE) file for details.
