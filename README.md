@@ -1,6 +1,7 @@
 # VBMeta-Hash-Fix
 
 A Magisk/KernelSU/Apatch module to fix VBMeta detections on Android
+
 ![License](https://img.shields.io/github/license/LoLToHell/VBMeta-Hash-Fix)
 ![Release date](https://img.shields.io/github/release-date/LoLToHell/VBMeta-Hash-Fix)
 ![Downloads](https://img.shields.io/github/downloads/LoLToHell/VBMeta-Hash-Fix/Total)
