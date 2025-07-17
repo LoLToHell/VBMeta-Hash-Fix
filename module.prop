@@ -1,6 +1,0 @@
-id=vbmeta_hash_fix
-name=VBMeta Hash Fix
-version=1.1
-versionCode=1100
-author=LoLToHell
-description=Checks and sets the current boot_hash value to fix the ro.boot.vbmeta.digest error
