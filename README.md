@@ -30,7 +30,7 @@ Automatically sets the `ro.boot.vbmeta.digest` property to the SHA-256 hash of t
 </details>
 
 ## Thanks❤️
-Big thanks [reveny](https://github.com/reveny/)
+Big thanks [reveny](https://github.com/reveny/) for [Native Detector](https://github.com/reveny/Android-Native-Root-Detector) and idea for a module
 
 ## License 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/LoLToHell/VBMeta-Hash-Fix/blob/Master-branch/LICENSE) file for details.
