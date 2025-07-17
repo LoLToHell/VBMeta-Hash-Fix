@@ -22,13 +22,13 @@ Automatically sets the `ro.boot.vbmeta.digest` property to the SHA-256 hash of t
 3. Compatibility with applications that require vbmeta secure boot parameter
 <details> <summary>Module status</summary>
   
-✅ - Active: Hash set
+✅ - Active: Hash set  
 Success: The module calculated and set the hash  
-🔵 - Active: using bootloader value
+🔵 - Active: using bootloader value  
 The bootloader value is used  
-❌ - Error: Boot partition not found 
+❌ - Error: Boot partition not found   
 Critical error: boot partition not found   
-❌ - Error: Hash calculation failed 
+❌ - Error: Hash calculation failed  
 Error reading partition or calculating hash  
 🔄 - intermediate state of script execution  
 
