@@ -8,7 +8,7 @@ A Magisk/KernelSU/Apatch module to fix VBMeta detections on Android
 
 ## Tested 
 
-Android 15, LineageOS 22.1, 6.1.57 Kernel with KernelSU Next via susfs, Poco F6 (Peridot)
+Android 15, LineageOS 22.1, 6.1.57 Kernel with KernelSU Next (Magic_Mount) via susfs, Poco F6 (Peridot)
 
 ## Description
 
