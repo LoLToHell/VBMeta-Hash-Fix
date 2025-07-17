@@ -15,10 +15,14 @@ Android 15, LineageOS 22.1, 6.1.57 Kernel with KernelSU Next (Magic_Mount) via s
 Simple script to set valid Boot Hash for `ro.boot.vbmeta.digest` and pass certification 
 
 ## Screenshots 
+<details>
+  <summary>Screenshots</summary>
 Before
 ![](/Screenshots/ss2.png)
 After
 ![](/Screenshots/ss1.png)
+
+</details>
 
 ## Thanks❤️
 Big thanks [reveny](https://github.com/reveny/)
