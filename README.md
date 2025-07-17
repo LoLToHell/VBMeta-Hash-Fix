@@ -21,7 +21,6 @@ Before
 ![](/Screenshots/ss2.png)
 After
 ![](/Screenshots/ss1.png)
-
 </details>
 
 ## Thanks❤️
