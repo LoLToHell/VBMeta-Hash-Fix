@@ -1,4 +1,4 @@
-# VBmeta-Hash-Fix
+# VBMeta-Hash-Fix
 
 A Magisk/KernelSU/Apatch module to fix VBMeta detections on Android
 
