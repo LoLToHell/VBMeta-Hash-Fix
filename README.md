@@ -8,7 +8,11 @@ Android 15, LineageOS 22.1, 6.1.57 Kernel with KernelSU Next via susfs, Poco F6 
 
 ## Description
 
-Simple script to set valid Boot Hash for ro.boot.vbmeta.digest and pass certification
+Simple script to set valid Boot Hash for ro.boot.vbmeta.digest and pass certification 
+
+## Screenshots
+![](/Screenshots/Screenshot_20250717-123518_Native Detector.png)
+![](/Screenshots/Screenshot_20250717-123622_Native Detector.png)
 
 ## Thanks❤️
 Big thanks [reveny](https://github.com/reveny/)
