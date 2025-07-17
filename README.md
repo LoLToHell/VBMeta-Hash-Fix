@@ -19,7 +19,19 @@ Simple script to set valid Boot Hash for `ro.boot.vbmeta.digest` and pass certif
 Automatically sets the `ro.boot.vbmeta.digest` property to the SHA-256 hash of the boot partition each time the device boots. This is needed for:
 1. Emulate Verified Boot (AVB) behavior
 2. Bypassing system integrity checks
-3. Compatibility with applications that require vbmeta secure boot parameters
+3. Compatibility with applications that require vbmeta secure boot parameter
+<details> <summary>Module status</summary>
+✅ - Active: Hash set
+Success: The module calculated and set the hash
+🔵 - Active: using bootloader value
+The bootloader value is used
+❌ - Error: Boot partition not found 
+Critical error: boot partition not found 
+❌ - Error: Hash calculation failed 
+Error reading partition or calculating hash 
+🔄 - intermediate state of script execution
+
+</details>
 
 ## Screenshots 
 <details>
