@@ -19,8 +19,7 @@ Simple script to set valid Boot Hash for `ro.boot.vbmeta.digest` and pass certif
   <summary>Screenshots</summary>
 Before
 <img src="/Screenshots/ss2.png" alt="Before" width="400">
-After
-![](/Screenshots/ss1.png)
+<img src="/Screenshots/ss1.png" alt="After" width="400">
 </details>
 
 ## Thanks❤️
