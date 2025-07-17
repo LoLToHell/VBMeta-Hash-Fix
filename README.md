@@ -21,6 +21,7 @@ Automatically sets the `ro.boot.vbmeta.digest` property to the SHA-256 hash of t
 2. Bypassing system integrity checks
 3. Compatibility with applications that require vbmeta secure boot parameter
 <details> <summary>Module status</summary>
+  
 ✅ - Active: Hash set
 Success: The module calculated and set the hash
 🔵 - Active: using bootloader value
