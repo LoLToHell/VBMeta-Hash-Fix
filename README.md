@@ -14,6 +14,13 @@ Android 15, LineageOS 22.1, 6.1.57 Kernel with KernelSU Next (Magic_Mount) via s
 
 Simple script to set valid Boot Hash for `ro.boot.vbmeta.digest` and pass certification 
 
+## Features 
+
+Automatically sets the `ro.boot.vbmeta.digest` property to the SHA-256 hash of the boot partition each time the device boots. This is needed for:
+1. Emulate Verified Boot (AVB) behavior
+2. Bypassing system integrity checks
+3. Compatibility with applications that require vbmeta secure boot parameters
+
 ## Screenshots 
 <details>
   <summary>Screenshots</summary>
