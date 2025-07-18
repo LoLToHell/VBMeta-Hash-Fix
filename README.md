@@ -10,7 +10,7 @@ A [Magisk](https://github.com/topjohnwu/Magisk)/[KernelSU](https://github.com/ti
 
 Android 15, LineageOS 22.1, 6.1.57 Kernel with KernelSU Next (Magic_Mount) via susfs, Poco F6 (Peridot)
 
-Android 15, Matrix 11.6.0, 5.10.236 Kernel via Magisk Poco F5 (Marble)
+Android 15, Matrix 11.6.0, 5.10.236 Kernel via Magisk, Poco F5 (Marble)
 
 ## Description
 
