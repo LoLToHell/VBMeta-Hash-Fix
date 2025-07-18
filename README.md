@@ -27,50 +27,10 @@ The module does not use the value from the bootloader. Instead, it calculates th
 /dev/block/platform/*/by-name/boot`
  3. Reads the raw partition data byte by byte  
  4. Calculates the SHA-256 hash of the entire contents: `$(sha256sum "$BOOT_PARTITION" | awk '{print $1}')`
-<details> 
-  
-  <summary>Module status</summary>
-  
-✅ - Active: Hash set  
-Success: The module calculated and set the hash  
-🔵 - Active: using bootloader value  
-The bootloader value is used  
-❌ - Error: Boot partition not found   
-Critical error: boot partition not found   
-❌ - Error: Hash calculation failed  
-Error reading partition or calculating hash  
-🔄 - intermediate state of script execution  
-
-</details>
 
 ## Compatibility
 
 The module is fully compatible with other modules for certification on the device, such as: TrickyStore, PlayIntegrityFIx-Next, SUSFS
-
-## FAQ 
-
-Q: Why does it work?
-1. `ro.boot.vbmeta.digest` parameter:
-- Not checked by the Android kernel
-- Used only by apps/services
-- Does not affect the actual boot verification  
-  **How apps use**:
-In java  
-`// An example of checking in an app`  
-`String digest = SystemProperties.get("ro.boot.vbmeta.digest");`  
-`if (!"expected_hash".equals(digest)) {`  
-`// Actions in case of mismatch
-}
-  `  
-The module substitutes the current hash to pass such checks.
-
-## Screenshots 
-<details>
-  <summary>Screenshots</summary>
-<img src="/Screenshots/ss2.png" alt="Before" width="200">
-  
-<img src="/Screenshots/ss1.png" alt="After" width="200">
-</details>
 
 ## Thanks❤️
 Big thanks [reveny](https://github.com/reveny/) for [Native Detector](https://github.com/reveny/Android-Native-Root-Detector) and idea for a module
