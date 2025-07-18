@@ -56,9 +56,9 @@ Q: Why does it work?
 - Does not affect the actual boot verification  
   **How apps use**:
 In java  
-`// An example of checking in an app  
-String digest = SystemProperties.get("ro.boot.vbmeta.digest");  
-if (!"expected_hash".equals(digest)) {  
+`// An example of checking in an app
+    String digest = SystemProperties.get("ro.boot.vbmeta.digest");  
+    if (!"expected_hash".equals(digest)) {  
 // Actions in case of mismatch
 }
   `
