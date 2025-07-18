@@ -47,6 +47,23 @@ Error reading partition or calculating hash
 
 The module is fully compatible with other modules for certification on the device, such as: TrickyStore, PlayIntegrityFIx-Next, SUSFS
 
+## FAQ 
+
+Q: Why does it work?
+1. `ro.boot.vbmeta.digest` parameter:
+- Not checked by the Android kernel
+- Used only by apps/services
+- Does not affect the actual boot verification
+  **How apps use**:
+`java
+// An example of checking in an app
+String digest = SystemProperties.get("ro.boot.vbmeta.digest");
+if (!"expected_hash".equals(digest)) {
+// Actions in case of mismatch
+}
+  `
+The module substitutes the current hash to pass such checks.
+
 ## Screenshots 
 <details>
   <summary>Screenshots</summary>
